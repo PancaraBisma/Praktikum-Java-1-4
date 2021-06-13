@@ -38,6 +38,9 @@ public class GuiByText extends JFrame {
 
     public static void main(String[] args) {
         GuiByText guiByText = new GuiByText();
+        guiByText.meletakkanKomponen();
+        guiByText.menambahkanListener();
         guiByText.setVisible(true);
     }
+
 }
